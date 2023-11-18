@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(165, 42, 42, 0.2);
+    font-family: 'Times New Roman';
+    /* border: 2px solid red; */
+    overflow-x: hidden;
+}
+
+#navbar {
+    /* border: solid 2px black; */
+    background-image: url(./images/top-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 99vw;
+    box-shadow: 0px 0px 8px black;
+}
+
+#search_bar {
+    /* border: solid 2px green; */
+    /* height: 40px; */
+    /* border-radius: 50%;  */
+}
+
+#search {
+    color: white;
+    background-color: rgb(99, 18, 18,1);
+    border: solid rgb(99, 18, 18,1);
+    height: 60px;
+    width: 70vw;
+    margin-top: 60px;
+    margin-left: 225px;
+    border-radius: 10px;
+    padding: 0.5%;
+    font-weight: 400;
+
+}
+
+#mid {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid 2px black; */
+    height: 250px;
+    width: 100vw;
+
+}
+
+#img1, #img2, #img3, #img4      {
+    /* display: flex;    */
+    /* flex-direction: column; */
+    align-items: center;
+    box-shadow: 0 8px 8px black;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    /* align-self: center; */
+}
+
+#second_img {
+    margin-left: 40px;
+}
+
+#third_img {
+    margin-left: 50px;
+}
+
+#fourth_img {
+    margin-left: 30px;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover {
+    box-shadow: 0 18px 18px black;
+}
+
+h4 {
+    font-weight: bold;
+    /* z-index: 1; */
+    /* position:relative; */
+    margin-top: 8px;
+    margin-left: 30px;
+
+    /* Names of the coffe need to be sorted  */
+}
+
+
+
+#coffee-house {
+    /* border: 2px solid red; */
+    background-color: rgb(165, 42, 42, 0.3);
+    box-shadow: 0 0 8px brown;
+    border-radius: 5px;
+    color: brown;
+    width: 90vw;
+    margin: auto;
+    /* margin-top: 20px; */
+    padding: 2%;
+}
+
+#coffee-list {
+    /* border: solid 2px green; */
+    padding: 2%;
+    border-radius: 5px;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(165, 42, 42, 0.3);
+    box-shadow: 0 0 8px brown;
+    color: brown;
+    margin-bottom: 50px;
+
+}
+
+#coffee-numbers {
+    /* border: 2px solid black; */
+    width: 85vw;
+
+}
+
+#txt {
+    /* margin-top: 20px; */
+}
